@@ -1,10 +1,10 @@
 <p align="center">
     <img src="https://chonky.io/chonky-logo-v2.png" alt="Chonky v2 Logo" width="500" />
     <br />
-    <a href="https://www.npmjs.com/package/@aperturerobotics/chonky">
+    <a href="https://www.npmjs.com/package/@ray-solutions/chonky">
         <img
             alt="NPM package"
-            src="https://img.shields.io/npm/v/@aperturerobotics/chonky.svg?style=flat&colorB=ffac5c"
+            src="https://img.shields.io/npm/v/@ray-solutions/chonky.svg?style=flat&colorB=ffac5c"
         />
     </a>
     <a href="https://tldrlegal.com/license/mit-license">
@@ -39,21 +39,17 @@ This is a fork of [Chonky] by [TimboKZ].
 Add the forked npm packages:
 
 ```
-yarn add @aperturerobotics/chonky @aperturerobotics/chonky-icon-fontawesome
+yarn add @ray-solutions/chonky @ray-solutions/chonky-icon-fontawesome
 ```
 
 Add to your app:
 
 ```typescript
-import { FullFileBrowser } from '@aperturerobotics/chonky'
-import { ChonkyIconFA } from '@aperturerobotics/chonky-icon-fontawesome'
+import { FullFileBrowser } from '@ray-solutions/chonky';
+import { ChonkyIconFA } from '@ray-solutions/chonky-icon-fontawesome';
 
 export function MyComponent() {
-    return <FullFileBrowser
-      files={[]}
-      darkMode={true}
-      iconComponent={ChonkyIconFA}
-    />
+  return <FullFileBrowser files={[]} darkMode={true} iconComponent={ChonkyIconFA} />;
 }
 ```
 

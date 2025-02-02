@@ -1,5 +1,5 @@
 {
-  "name": "@aperturerobotics/chonky",
+  "name": "@ray-solutions/chonky",
   "version": "0.3.1",
   "description": "A File Browser component for React",
   "license": "MIT",
@@ -40,8 +40,8 @@
     "prepare": "dts build",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "format": "prettier --config ../../.prettierrc.js --ignore-path ../../.prettierignore . --write",
-    "format-check": "prettier --config ../../.prettierrc.js --ignore-path ../../.prettierignore --check ."
+    "format": "prettier --config ../../.prettierrc.json --ignore-path ../../.prettierignore . --write",
+    "format-check": "prettier --config ../../.prettierrc.json --ignore-path ../../.prettierignore --check ."
   },
   "peerDependencies": {
     "react": ">=16"

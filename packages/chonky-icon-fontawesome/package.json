@@ -1,5 +1,5 @@
 {
-  "name": "@aperturerobotics/chonky-icon-fontawesome",
+  "name": "@ray-solutions/chonky-icon-fontawesome",
   "version": "0.3.1",
   "description": "FontAwesome icon component for Chonky file browser",
   "license": "MIT",
@@ -19,8 +19,8 @@
     "prepare": "dts build",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "format": "prettier --config ../../.prettierrc.js --ignore-path ../../.prettierignore . --write",
-    "format-check": "prettier --config ../../.prettierrc.js --ignore-path ../../.prettierignore --check ."
+    "format": "prettier --config ../../.prettierrc.json --ignore-path ../../.prettierignore . --write",
+    "format-check": "prettier --config ../../.prettierrc.json --ignore-path ../../.prettierignore --check ."
   },
   "peerDependencies": {
     "react": ">=16"
@@ -63,7 +63,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@aperturerobotics/chonky": "^0.3.1",
+    "@ray-solutions/chonky": "^0.3.1",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
